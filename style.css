@@ -1,7 +1,9 @@
-
-
+h1 {
+    font-family: Righteous, arial, serif;
+}
 p {
     font-family: Lato, Arial, serif;
+    color: red;
 }
 font-family: 'Righteous', cursive;
 font-family: 'Lato', sans-serif;
