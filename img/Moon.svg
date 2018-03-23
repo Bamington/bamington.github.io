@@ -1,0 +1,194 @@
+<svg width="972" height="972" viewBox="0 0 972 972" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Moon</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-24569 -7070)">
+<g id="Moon" filter="url(#filter0_d)">
+<mask id="mask0_alpha" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 25195.9 8081.92)" fill="#64C4F7"/>
+</g>
+</mask>
+<g id="Group" mask="url(#mask0_alpha)">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 25195.9 8081.92)" fill="#5DCBFA"/>
+</g>
+<g id="Group">
+<g id="Subtract">
+<use xlink:href="#path1_fill" transform="matrix(-0.971341 -0.237689 0.240276 -0.970705 25400.8 7843.31)" fill="#4FBEED"/>
+</g>
+<g id="Subtract">
+<use xlink:href="#path2_fill" transform="matrix(-0.971341 -0.237689 0.240276 -0.970705 25175.7 8025.49)" fill="#4FBEED"/>
+</g>
+<g id="Subtract">
+<use xlink:href="#path3_fill" transform="matrix(-0.998111 0.0614297 -0.0568625 -0.998382 25149.9 7597.15)" fill="#4FBEED"/>
+</g>
+<g id="Subtract">
+<use xlink:href="#path4_fill" transform="matrix(-0.921986 0.387224 -0.382792 -0.923835 24857.3 7538.42)" fill="#4FBEED"/>
+</g>
+<g id="Subtract">
+<use xlink:href="#path5_fill" transform="matrix(-0.926825 -0.375493 0.37675 -0.926315 25307.3 8107.47)" fill="#4FBEED"/>
+</g>
+<g id="Subtract">
+<use xlink:href="#path6_fill" transform="matrix(-0.801204 -0.598392 0.580504 -0.814258 24999.8 8493.5)" fill="#4FBEED"/>
+</g>
+<g id="Subtract">
+<use xlink:href="#path7_fill" transform="matrix(-0.998122 0.061262 -0.0564681 -0.998404 24883.7 7733.17)" fill="#4FBEED"/>
+</g>
+</g>
+<g id="Ellipse 2.2">
+<use xlink:href="#path0_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 25153.6 8098.58)" fill="#FFFFFF" fill-opacity="0.05"/>
+</g>
+<g id="Ellipse 2.3">
+<use xlink:href="#path8_fill" transform="matrix(0.866025 0.5 0.5 -0.866025 24350.2 7758.85)" fill="#FFFFFF" fill-opacity="0.05"/>
+</g>
+</g>
+<g id="Craters" mask="url(#mask0_alpha)">
+<g id="Group 2">
+<mask id="mask1_alpha" mask-type="alpha">
+<g id="Ellipse 3.2">
+<use xlink:href="#path9_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 25007.3 7898.4)" fill="#5FB0D9"/>
+</g>
+</mask>
+<g id="Ellipse 3.2" mask="url(#mask1_alpha)">
+<use xlink:href="#path9_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 25007.3 7898.4)" fill="#5FB0D9"/>
+</g>
+<g id="Ellipse 3.3" mask="url(#mask1_alpha)">
+<use xlink:href="#path9_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 25015.8 7883.56)" fill="#68BAE3"/>
+</g>
+</g>
+<g id="Group 2.7">
+<mask id="mask2_alpha" mask-type="alpha">
+<g id="Ellipse 3.2">
+<use xlink:href="#path10_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 24821.4 7746.96)" fill="#5FB0D9"/>
+</g>
+</mask>
+<g id="Ellipse 3.2" mask="url(#mask2_alpha)">
+<use xlink:href="#path10_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 24821.4 7746.96)" fill="#5FB0D9"/>
+</g>
+<g id="Ellipse 3.3" mask="url(#mask2_alpha)">
+<use xlink:href="#path10_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 24826.4 7738.32)" fill="#68BAE3"/>
+</g>
+</g>
+<g id="Group 2.1">
+<mask id="mask3_alpha" mask-type="alpha">
+<g id="Ellipse 3.2">
+<use xlink:href="#path11_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 25149 7382.66)" fill="#5FB0D9"/>
+</g>
+</mask>
+<g id="Ellipse 3.2" mask="url(#mask3_alpha)">
+<use xlink:href="#path11_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 25149 7382.66)" fill="#5FB0D9"/>
+</g>
+<g id="Ellipse 3.3" mask="url(#mask3_alpha)">
+<use xlink:href="#path11_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 25154.9 7372.46)" fill="#68BAE3"/>
+</g>
+</g>
+<g id="Group 2.8">
+<mask id="mask4_alpha" mask-type="alpha">
+<g id="Ellipse 3.2">
+<use xlink:href="#path12_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 25365.1 7472.42)" fill="#5FB0D9"/>
+</g>
+</mask>
+<g id="Ellipse 3.2" mask="url(#mask4_alpha)">
+<use xlink:href="#path12_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 25365.1 7472.42)" fill="#5FB0D9"/>
+</g>
+<g id="Ellipse 3.3" mask="url(#mask4_alpha)">
+<use xlink:href="#path12_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 25370.4 7463.21)" fill="#68BAE3"/>
+</g>
+</g>
+<g id="Group 2.3">
+<mask id="mask5_alpha" mask-type="alpha">
+<g id="Ellipse 3.2">
+<use xlink:href="#path13_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 24939.9 7623.52)" fill="#5FB0D9"/>
+</g>
+</mask>
+<g id="Ellipse 3.2" mask="url(#mask5_alpha)">
+<use xlink:href="#path13_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 24939.9 7623.52)" fill="#5FB0D9"/>
+</g>
+<g id="Ellipse 3.3" mask="url(#mask5_alpha)">
+<use xlink:href="#path13_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 24946.4 7612.25)" fill="#68BAE3"/>
+</g>
+</g>
+<g id="Group 2.4">
+<mask id="mask6_alpha" mask-type="alpha">
+<g id="Ellipse 3.2">
+<use xlink:href="#path12_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 25349.4 7759.45)" fill="#5FB0D9"/>
+</g>
+</mask>
+<g id="Ellipse 3.2" mask="url(#mask6_alpha)">
+<use xlink:href="#path12_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 25349.4 7759.45)" fill="#5BABD4"/>
+</g>
+<g id="Ellipse 3.3" mask="url(#mask6_alpha)">
+<use xlink:href="#path12_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 25354.7 7750.24)" fill="#65B4DB"/>
+</g>
+</g>
+<g id="Group 2.6">
+<mask id="mask7_alpha" mask-type="alpha">
+<g id="Ellipse 3.2">
+<use xlink:href="#path14_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 25199.8 7899.92)" fill="#5FB0D9"/>
+</g>
+</mask>
+<g id="Ellipse 3.2" mask="url(#mask7_alpha)">
+<use xlink:href="#path14_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 25199.8 7899.92)" fill="#5BABD4"/>
+</g>
+<g id="Ellipse 3.3" mask="url(#mask7_alpha)">
+<use xlink:href="#path14_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 25206 7889.07)" fill="#65B4DB"/>
+</g>
+</g>
+<g id="Group 2.5">
+<mask id="mask8_alpha" mask-type="alpha">
+<g id="Ellipse 3.2">
+<use xlink:href="#path15_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 24936.3 7437.23)" fill="#5FB0D9"/>
+</g>
+</mask>
+<g id="Ellipse 3.2" mask="url(#mask8_alpha)">
+<use xlink:href="#path15_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 24936.3 7437.23)" fill="#5BABD4"/>
+</g>
+<g id="Ellipse 3.3" mask="url(#mask8_alpha)">
+<use xlink:href="#path15_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 24944.2 7423.6)" fill="#65B4DB"/>
+</g>
+</g>
+<g id="Group 2.2">
+<mask id="mask9_alpha" mask-type="alpha">
+<g id="Ellipse 3.2">
+<use xlink:href="#path16_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 25192.3 7773.06)" fill="#5FB0D9"/>
+</g>
+</mask>
+<g id="Ellipse 3.2" mask="url(#mask9_alpha)">
+<use xlink:href="#path16_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 25192.3 7773.06)" fill="#5FB0D9"/>
+</g>
+<g id="Ellipse 3.3" mask="url(#mask9_alpha)">
+<use xlink:href="#path16_fill" transform="matrix(-0.866025 -0.5 0.5 -0.866025 25204.3 7752.35)" fill="#68BAE3"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="24569" y="7070" width="972" height="972" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="0"/>
+<feGaussianBlur stdDeviation="50"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.423529 0 0 0 0 0.780392 0 0 0 0 0.968627 0 0 0 0.5 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<path id="path0_fill" d="M 770 385C 770 597.63 597.63 770 385 770C 172.37 770 0 597.63 0 385C 0 172.37 172.37 0 385 0C 597.63 0 770 172.37 770 385Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 46.8219 0C 38.0651 3.825 30.3244 9.01297 23.7422 15.6225C -40.3367 79.9718 29.7559 254.691 180.298 405.868C 330.842 557.046 504.827 627.434 568.907 563.085C 572.418 559.558 575.527 555.701 578.241 551.533C 485.409 532.005 363.918 458.725 253.375 347.716C 134.122 227.961 58.5939 95.4107 46.8219 0Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 62.2658 0C 50.6215 4.26854 40.3269 10.0586 31.5741 17.4344C -53.6425 89.2469 39.5713 284.229 239.772 452.94C 439.973 621.65 671.35 700.202 756.566 628.389C 761.236 624.454 765.37 620.149 768.98 615.499C 645.525 593.705 483.96 511.926 336.954 388.044C 178.364 254.399 77.9214 106.476 62.2658 0Z"/>
+<path id="path3_fill" fill-rule="evenodd" d="M 586.608 464.155C 493.498 485.803 328.423 405.108 182.423 258.822C 96.7546 172.985 33.6255 80.5686 0.445257 0C -6.22424 82.8505 62.4172 215.603 180.501 333.919C 331.214 484.928 505.396 555.237 569.547 490.96C 577.036 483.456 582.694 474.45 586.608 464.155Z"/>
+<path id="path4_fill" fill-rule="evenodd" d="M 427.321 348.029C 359.494 364.261 239.243 303.755 132.888 194.068C 70.4823 129.707 24.4952 60.4116 0.324357 0C -4.53416 62.1223 45.4687 161.662 131.488 250.377C 241.277 363.604 368.161 416.323 414.893 368.127C 420.348 362.501 424.47 355.749 427.321 348.029Z"/>
+<path id="path5_fill" fill-rule="evenodd" d="M 100.649 0.581199C 70.8974 -2.02777 45.8601 4.09041 27.9415 20.0791C -39.7979 80.5249 19.8577 259.155 161.186 419.061C 284.642 558.746 429.582 637.936 509.419 615.439C 437.474 579.743 358.54 522.296 284.517 447.918C 113.312 275.89 32.2519 77.4683 100.649 0.581199Z"/>
+<path id="path6_fill" fill-rule="evenodd" d="M 83.2295 0.515946C 58.6268 -1.80016 37.9231 3.63133 23.1057 17.8268C -32.9102 71.4922 16.421 230.085 133.29 372.054C 235.379 496.07 355.235 566.377 421.255 546.403C 361.762 514.711 296.488 463.709 235.275 397.673C 93.7006 244.943 26.6702 68.7785 83.2295 0.515946Z"/>
+<path id="path7_fill" fill-rule="evenodd" d="M 427.321 348.03C 359.495 364.261 239.244 303.756 132.888 194.068C 70.4827 129.707 24.495 60.4114 0.32442 0C -4.53459 62.1224 45.4682 161.662 131.489 250.377C 241.277 363.605 368.162 416.324 414.893 368.128C 420.349 362.502 424.47 355.749 427.321 348.03Z"/>
+<path id="path8_fill" d="M 425.873 212.937C 425.873 330.538 330.538 425.873 212.937 425.873C 95.335 425.873 0 330.538 0 212.937C 0 95.335 95.335 0 212.937 0C 330.538 0 425.873 95.335 425.873 212.937Z"/>
+<path id="path9_fill" d="M 158.219 79.1096C 158.219 122.801 122.801 158.219 79.1096 158.219C 35.4186 158.219 0 122.801 0 79.1096C 0 35.4186 35.4186 0 79.1096 0C 122.801 0 158.219 35.4186 158.219 79.1096Z"/>
+<path id="path10_fill" d="M 50.762 25.381C 50.762 39.3985 39.3985 50.762 25.381 50.762C 11.3635 50.762 0 39.3985 0 25.381C 0 11.3635 11.3635 0 25.381 0C 39.3985 0 50.762 11.3635 50.762 25.381Z"/>
+<path id="path11_fill" d="M 77.7911 38.8955C 77.7911 60.377 60.377 77.7911 38.8955 77.7911C 17.4141 77.7911 0 60.377 0 38.8955C 0 17.4141 17.4141 0 38.8955 0C 60.377 0 77.7911 17.4141 77.7911 38.8955Z"/>
+<path id="path12_fill" d="M 60.6507 30.3253C 60.6507 47.0736 47.0736 60.6507 30.3253 60.6507C 13.5771 60.6507 0 47.0736 0 30.3253C 0 13.5771 13.5771 0 30.3253 0C 47.0736 0 60.6507 13.5771 60.6507 30.3253Z"/>
+<path id="path13_fill" d="M 96.25 48.125C 96.25 74.7037 74.7037 96.25 48.125 96.25C 21.5463 96.25 0 74.7037 0 48.125C 0 21.5463 21.5463 0 48.125 0C 74.7037 0 96.25 21.5463 96.25 48.125Z"/>
+<path id="path14_fill" d="M 88.9983 44.4991C 88.9983 69.0753 69.0753 88.9983 44.4991 88.9983C 19.9229 88.9983 0 69.0753 0 44.4991C 0 19.9229 19.9229 0 44.4991 0C 69.0753 0 88.9983 19.9229 88.9983 44.4991Z"/>
+<path id="path15_fill" d="M 137.123 68.5616C 137.123 106.427 106.427 137.123 68.5616 137.123C 30.6961 137.123 0 106.427 0 68.5616C 0 30.6961 30.6961 0 68.5616 0C 106.427 0 137.123 30.6961 137.123 68.5616Z"/>
+<path id="path16_fill" d="M 259.743 129.872C 259.743 201.598 201.598 259.743 129.872 259.743C 58.1455 259.743 0 201.598 0 129.872C 0 58.1455 58.1455 0 129.872 0C 201.598 0 259.743 58.1455 259.743 129.872Z"/>
+</defs>
+</svg>
