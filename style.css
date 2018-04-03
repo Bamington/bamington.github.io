@@ -31,6 +31,9 @@ p {
     color: #19253D;
     font-size: 16px;
 }
+a {
+    text-decoration: none;
+}
 .white {
     color: white;
 }
@@ -52,6 +55,11 @@ button {
     margin: 5px;
     border: none;
     box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.15);
+    transition: all .1s ease-in-out;
+}
+button:hover {
+    background-color: #19253D;
+    box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.5);
 }
 .category-button {
     /*color: red;*/
@@ -91,6 +99,20 @@ input[type=submit] {
     text-align: center;
     background-color: #FFFFFF;
     box-shadow: 0px 1em 1em rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+.global-header-left {
+    order: 1;
+}
+.global-header-center {
+    order: 2;
+}
+.global-header-right {
+    order: 3;
 }
 .global-footer {
     z-index: 1;
@@ -199,11 +221,11 @@ width: 100%;
     max-width: 250px;
     box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.25);
     border-radius: 5px;
-    transition: all .2s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 .category:hover {
-    box-shadow: 0em 0em 1em #64C4F7;
-    transform: scale(1.1);
+    box-shadow: 0em 0em 3em #64C4F7;
+    transform: scale(1.025);
 }
 .category-text {
     padding: 10px;
@@ -244,6 +266,7 @@ width: 100%;
     height: 100%;
     padding-right: 5%;
     text-align: right;
+    align-self: center;
 }
 .contactform-box {
     width: 80%;
