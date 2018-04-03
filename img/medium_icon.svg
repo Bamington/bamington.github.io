@@ -1,0 +1,32 @@
+<svg width="100" height="100" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Medium</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-25627 -10588)">
+<g id="Medium">
+<g id="Rectangle 2.1">
+<use xlink:href="#path0_fill" transform="translate(25627 10588)" fill="#383838"/>
+</g>
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(25641 10608)" fill="#FFFFFF"/>
+<use xlink:href="#path2_fill" transform="translate(25641 10608)" fill="#FFFFFF"/>
+<use xlink:href="#path3_fill" transform="translate(25641 10608)" fill="#FFFFFF"/>
+</g>
+<g id="Vector (Stroke)">
+<use xlink:href="#path4_fill" transform="translate(25650 10619.2)" fill="#FFFFFF"/>
+</g>
+<g id="Vector (Stroke)">
+<use xlink:href="#path5_fill" transform="translate(25678.3 10608.3)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 20C 0 8.9543 8.95431 0 20 0L 80 0C 91.0457 0 100 8.95431 100 20L 100 80C 100 91.0457 91.0457 100 80 100L 20 100C 8.9543 100 0 91.0457 0 80L 0 20Z"/>
+<path id="path1_fill" d="M 31.6031 57.9808L 2.62137 0.725812C 2.45301 0.393223 2.6947 0 3.06747 0L 21.0919 0C 21.2874 0 21.4649 0.11393 21.5464 0.291635L 39.358 39.1448C 39.4133 39.2655 39.4184 39.4033 39.3721 39.5277L 32.5178 57.9295C 32.3656 58.338 31.8 58.3697 31.6031 57.9808Z"/>
+<path id="path2_fill" d="M 69.9305 0L 52.7949 0C 52.5656 0 52.3657 0.155984 52.3099 0.37841L 49.6023 11.1782C 49.5923 11.218 49.5873 11.2588 49.5873 11.2998L 49.5873 52.0783C 49.5873 52.1939 49.5472 52.306 49.4738 52.3954L 45.1863 57.6209C 44.9186 57.9473 45.1507 58.4381 45.5729 58.4381L 69.3795 58.4381C 69.8016 58.4381 70.0338 57.9473 69.766 57.6209L 65.4785 52.3954C 65.4052 52.306 65.3651 52.1939 65.3651 52.0783L 65.3651 6.92427C 65.3651 6.80707 65.4063 6.69359 65.4814 6.60365L 70.3142 0.820625C 70.5863 0.495089 70.3548 0 69.9305 0Z"/>
+<path id="path3_fill" d="M 19.3707 58.4381L 0.915025 58.4381C 0.519609 58.4381 0.280658 58.0008 0.494235 57.668L 8.8683 44.6204C 8.96027 44.4771 9.11883 44.3905 9.28909 44.3905L 10.9966 44.3905C 11.1669 44.3905 11.3254 44.4771 11.4174 44.6204L 19.7915 57.668C 20.0051 58.0008 19.7661 58.4381 19.3707 58.4381Z"/>
+<path id="path4_fill" fill-rule="evenodd" d="M 0 37.0857L 0 0L 2.25397 0L 2.25397 37.0857L 0 37.0857Z"/>
+<path id="path5_fill" fill-rule="evenodd" d="M 2.09487 39.039L 0 38.2095L 15.2143 0L 17.3092 0.829445L 2.09487 39.039Z"/>
+</defs>
+</svg>
