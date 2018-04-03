@@ -57,7 +57,6 @@ button {
     color: white;
     padding: 4px;
     border-radius: 2px;
-    margin: 5px;
     border: none;
     box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.15);
     transition: all .1s ease-in-out;
@@ -65,9 +64,6 @@ button {
 button:hover {
     background-color: #19253D;
     box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.5);
-}
-.category-button {
-    /*color: red;*/
 }
 input[type=text], select {
     width: 100%;
@@ -83,6 +79,7 @@ input[type=text], select {
 input[type=text]:focus {
     outline: 2px gray;
     box-shadow: 0em 0em 2em rgba(0, 0, 0, 0.0.50);
+    transition: all .1s ease-in-out;
 }
 input[type=submit] {
     width: 100%;
@@ -95,6 +92,10 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transition: all .1s ease-in-out;
+}
+input[type=submit]:hover {
+    box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.5);
 }
 .global-header {
     z-index: 9999;
@@ -169,6 +170,7 @@ input[type=submit] {
 }
 .home-greeting-img{
 width: 100%;
+padding-left: 20%;
 }
 .greeting-small {
     font-size: 2.5em;
@@ -240,6 +242,10 @@ width: 100%;
     box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.25);
     border-radius: 5px;
     transition: all .4s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 0;
 }
 .category:hover {
     box-shadow: 0em 0em 3em #64C4F7;
@@ -323,3 +329,36 @@ width: 100%;
     width: 100%;
     margin-top: 10px;
 }
+.project-container {
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+}
+.project-background-left {
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    min-height: 100px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.project-content-left {
+    text-align: left;
+    flex-direction: row;
+}
+.project-content-right {
+    text-align: left;
+    flex-direction: row-reverse;
+}
+.content-one {
+    order: 1;
+    color: red;
+}
+.content-two {
+    order: 2;
+    color: blue;
+    justify-self: flex-end;
+}  
