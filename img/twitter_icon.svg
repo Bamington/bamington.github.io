@@ -1,0 +1,18 @@
+<svg width="100" height="100" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Twitter Icon</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-25387 -10588)">
+<g id="Twitter Icon">
+<g id="Rectangle 2.2">
+<use xlink:href="#path0_fill" transform="translate(25387 10588)" fill="#55ADEE"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(25403 10610)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 20C 0 8.9543 8.95431 0 20 0L 80 0C 91.0457 0 100 8.95431 100 20L 100 80C 100 91.0457 91.0457 100 80 100L 20 100C 8.9543 100 0 91.0457 0 80L 0 20Z"/>
+<path id="path1_fill" d="M 17.5 13C 24.3 16.6 31 17.5 33.5 17.5C 33.3333 16.8333 33 15.2 33 14C 33 12.5 33.5 8.5 35.5 6C 37.5 3.5 41.5 0 47.5 0C 52.3 0 55.8333 3.33333 57 5C 60 5 64 2.5 66 1.5C 64.5 5 62 7.5 60.5 8.5C 63.5 8.5 65.5 8 68 7C 65.6 10.6 62.3333 13.1667 61 14L 61 19C 61 23 59 31 55.5 36.5C 52.3182 41.5 45 49 40.5 51L 40.3975 51.0456C 37.6514 52.2668 30.3808 55.5 21 55.5C 11.5 55.5 4.5 52 0 49.5C 14.5 49.5 18 45 20 44C 18.5 44 15 42.5 12.5 41C 10 39.5 8.5 36 8 34C 13.2 34 13.8333 33.6667 13.5 33.5C 8.5 33.5 2.5 26.5 2.5 20C 5.7 21.2 8.16667 21.5 9 21.5C 6.83333 19.5 2.5 14.6 2.5 11C 2.5 7.4 3.83333 3.83333 4.5 2.5C 6 4.5 10.7 9.4 17.5 13Z"/>
+</defs>
+</svg>
