@@ -443,10 +443,19 @@ padding-left: 20%;
 .project-content-left {
     text-align: left;
     flex-direction: row;
+    position: relative;
 }
 .project-content-right {
     text-align: left;
 
+}
+.project-logo {
+    position: absolute;
+    max-height: 250px;
+    min-height: 250px;
+    z-index: 9999;
+    left: -30px;
+    top: -40%;
 }
 .content-one {
     order: 1;
