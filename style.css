@@ -493,6 +493,7 @@ padding-left: 20%;
 }
 .project-rp-text {
     color: #fff;
+    text-align: center;
 }
 .project-rp-img {
     float: right;
@@ -514,4 +515,26 @@ padding-left: 20%;
 @font-face {
     font-family: "sacul";
     src: url(fonts/Sacul.otf);
+}
+
+/* ---------- CVA SPECIFIC ---------- */
+.project-cva {
+    background: radial-gradient(345.00px at 50% 34.11%, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0) 100%), url("img/project_bg_cva.png"), #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: middle;
+    background-size: cover;
+    text-align: center;
+    align-content: center;
+}
+.project-cva-content {
+    order: 1;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.project-cva-text {
+    color: #fff;
+}
+.cva-logo {
+    max-height: 200px;
 }

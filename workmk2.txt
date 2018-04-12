@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <title>Chris Harrison - Designer</title>
+<head>
+    <link runat="server" rel="shortcut icon" href="img/favicon.png" type="image/x-icon"/>
+    <link runat="server" rel="icon" href="img/favicon.png" type="image/ico"/>
+    <link rel="stylesheet" type="text/css" href="stylereset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Righteous" rel="stylesheet">
+</head>
+<body>
+    <div class="global-header">
+        <div class="global-header-left">
+            <button>Link 1</button>
+            <button>Link 2</button>
+        </div>
+        <div class="global-header-center">
+            <a href="index.html"><h1 class="hero-h1">CHRIS HARRISON DESIGN</h1></a>
+        </div>
+        <div class="global-header-right">
+            <button>Link 1</button>
+            <button>Link 2</button>
+        </div>
+    </div>
+    <div class="home-greeting">
+        <div class="home-greeting-left">
+            <img src="img/moon.svg" class="home-greeting-img">
+        </div>    
+        <div class="home-greeting-right">
+            <span>
+                <p class="greeting-small">Hello!</p>
+            </span>
+            <span>
+                <p class="greeting-big">I'm <gold>Chris Harrison</gold></p>
+            </span>
+            <span>
+                <p class="greeting-small">and I'm a designer.</p>
+                <p class="greeting-small"><gray>not a planet. I just like planets.</gray>.</p>
+            </span>
+        </div>
+    </div>
+    <div class="white-full-width">
+        <h3>I’ve worked on some pretty cool stuff, in a number of disciplines. Check it out!</h3>
+        <h4>Or don’t. Just hire me anyway. Take a chance. Come on, live a little. </h4>
+<!--    ****    ROMANCE PROTOCOL PROJECT PANEL    ****     -->
+<div class="project-wrapper project-rp">
+    <div class="project-content project-rp-content">
+        <img src="img/project_logo_rp.svg" class="project-logo rp-logo">
+        <h3 class="project-rp-text">UX - 3D - GAME</h3>
+        <hr class="project-rp-text">
+        <p class="project-rp-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies tortor eget sem sagittis, nec facilisis metus aliquam. Phasellus a luctus odio. Maecenas quis nunc nulla. Sed nec sollicitudin ligula. Nullam tempor pretium dui in rutrum. Phasellus in tortor vitae orci sollicitudin congue semper nec enim. Fusce scelerisque semper nisl. Donec rutrum nisi ac elementum pulvinar.</p>
+        <br>
+        <button class="project-rp-btn">Find out more!</button>
+    </div>
+    <div class="project-right">
+        <img src="img/project_img_rp.png" class="project-rp-img">
+    </div>
+</div>       
+<!--    ****    KENO PROJECT PANEL    ****     -->
+<div class="project-wrapper project-keno">
+    <div class="project-left">
+    </div>
+    <div class="project-content project-keno-content">
+        <img src="img/project_logo_keno.svg" class="project-logo keno-logo">
+        <br>
+        <h3 class="project-keno-text">UX - ANIMATION - PROTOTYPE</h3>
+        <hr class="project-keno-text">
+        <p class="project-keno-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies tortor eget sem sagittis, nec facilisis metus aliquam. Phasellus a luctus odio. Maecenas quis nunc nulla. Sed nec sollicitudin ligula. Nullam tempor pretium dui in rutrum. Phasellus in tortor vitae orci sollicitudin congue semper nec enim. Fusce scelerisque semper nisl. Donec rutrum nisi ac elementum pulvinar.</p>
+        <br>
+        <button class="project-keno-btn">Find out more!</button>
+    </div>
+</div>
+<!--    ****    POSITION ONE PROJECT PANEL    ****     -->
+<div class="project-wrapper project-pone">
+        <div class="project-content project-pone-content">
+            <img src="img/project_logo_pone.svg" class="project-logo pone-logo">
+            <h2 class="project-pone-text">UX - BRANDING - DIGITAL - ANIMATION</h2>
+            <hr>
+            <p class="project-pone-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies tortor eget sem sagittis, nec facilisis metus aliquam. Phasellus a luctus odio. Maecenas quis nunc nulla. Sed nec sollicitudin ligula. Nullam tempor pretium dui in rutrum. Phasellus in tortor vitae orci sollicitudin congue semper nec enim. Fusce scelerisque semper nisl. Donec rutrum nisi ac elementum pulvinar.</p>
+            <br>
+            <button class="project-pone-btn">Find out more!</button>
+        </div>
+    </div>
+<!--    ****    CVA PROJECT PANEL    ****     -->
+    <div class="project-wrapper project-cva">
+        <div class="project-content project-cva-content">
+            <img src="img/project_logo_cva.png" class="project-logo cva-logo">
+            <h3 class="project-cva-text">UX - PROTOTYPE</h3>
+            <hr class="project-cva-text">
+            <p class="project-cva-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies tortor eget sem sagittis, nec facilisis metus aliquam. Phasellus a luctus odio. Maecenas quis nunc nulla. Sed nec sollicitudin ligula. Nullam tempor pretium dui in rutrum. Phasellus in tortor vitae orci sollicitudin congue semper nec enim. Fusce scelerisque semper nisl. Donec rutrum nisi ac elementum pulvinar.</p>
+        </div>
+    </div>       
+<!-- THE REST OF STUF -->
+    </div>
+    <div class="trans-full-width">
+            <img src="img/portrait.svg" class="img-portrait">
+        <div class="white-full-width-narrow">
+            <div class="aboutme-container">
+                <div class="aboutme-left">
+                    <div class=aboutme-img-container>
+                        
+                    </div>
+                </div>
+                <div class="aboutme-right">
+                    <h3>Want to know more about me?</h3>
+                    <h4>Wait, really? This has never happened before. I’m so unprepared.</h4>
+                    <br>
+                    <p>I’m a real human being from Melbourne, Australia.</p>
+                    <br>
+                    <p>When I was 12 I discovered you could use photoshop to put myself in Lord of the Rings. This seemed like a perfectly good reason to become a designer, so after a short 10-ish years, I did.</p>
+                    <br>
+                    <p>But don’t worry, that’s just the tip of this incredibly long-winded iceberg. Want to know more about me? Well, you’re just one click away...</p>          
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="white-full-width-narrow">
+            <h3>Wow, I sure do talk a lot. I suppose it’s your turn to talk now.</h3>
+            <h4>Although I could just keep going. I’m not this annoyingly talkative in person, really. Is it coming accross as endearing? I hope so.</h4>
+            <br><br>
+        <div class="contactform-box">
+            <div class="contactform-top-box">
+                <input class="name" type="text" name="Name" placeholder="Your name">
+                <input class="email" type="text" name="Email" placeholder="Your email">
+            </div>
+            <div class="contactform-bottom-box">
+                <input class="message" type="text" name="Message" placeholder="Your message">
+            </div>
+            <div>
+                <input class="submit" type="submit" value="Send the best email you've ever sent.">
+            </div>
+            <div>
+                <br>
+                <h3>You can also find me on these social networks:</h3>
+                <br>
+                <a href="https://twitter.com/bamharrison"><img src="img/twitter_icon.svg" class="social-icon"></a>
+                <a href="https://www.linkedin.com/in/chris-bam-harrison-71458131/"><img src="img/linkedin_icon.svg" class="social-icon"></a>
+                <a href="https://medium.com/@christopherbamharrison"><img src="img/medium_icon.svg" class="social-icon"></a>
+            </div>
+        </div>
+    </div>
+    <div class="global-footer">
+        <p>All content is copyright blah blah please don't steal anything.</p>
+    </div>
+</body>
+</html>
