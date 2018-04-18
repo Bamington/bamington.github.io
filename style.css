@@ -92,10 +92,13 @@ select {
   outline: none;
   box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.15);
 }
-input[type='text']:focus {
-  outline: 2px gray;
-  box-shadow: 0em 0em 2em rgba(0, 0, 0, 0.5);
-  transition: all 0.1s ease-in-out;
+input:focus {
+    box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.50);
+}
+input[type=text]:focus {
+    outline: 2px gray;
+    box-shadow: 0em 0em 2em rgba(100, 196, 247, 0.75);
+    transition: all .1s ease-in-out;
 }
 input[type='submit'] {
   width: 100%;
@@ -110,8 +113,8 @@ input[type='submit'] {
   cursor: pointer;
   transition: all 0.1s ease-in-out;
 }
-input[type='submit']:hover {
-  box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.5);
+input[type=submit]:hover {
+    box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.5);
 }
 .global-header {
   z-index: 9999;
@@ -430,6 +433,15 @@ input[type='submit']:hover {
   max-height: 100px;
   max-width: 600px;
 }
+.project-blank {
+    background: #fff;
+    min-height: 250px;
+    line-height: 250px;
+    text-align: center;
+    box-shadow: inset 0 7px 30px -7px rgba(0,0,0,0.5);
+}
+.project-blank:hover {
+
 
 /* ---------- KENO SPECIFIC ---------- */
 .project-keno {
@@ -467,20 +479,16 @@ input[type='submit']:hover {
 }
 
 .project-blank {
-  background: #fff;
-  min-height: 150px;
-  line-height: 250px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  padding-top: 50px;
+    background: #fff;
+    min-height: 250px;
+    line-height: 250px;
+    text-align: center;
 }
 
 .project-span {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
-  min-height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
 }
 /* ---------- POSITION ONE SPECIFIC ---------- */
 .project-pone {
