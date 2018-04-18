@@ -213,7 +213,6 @@ padding-left: 20%;
     margin-top: 40px;
     margin-bottom: 40px;
     padding-top: 40px;
-    padding-bottom: 40px;
     background: white;
     width: 100%;
     text-align: center;
@@ -468,8 +467,18 @@ padding-left: 20%;
     src: url(fonts/TNorth-Regular.ttf);
 }
 
+.project-blank {
+    background: #fff;
+    min-height: 250px;
+    line-height: 250px;
+    text-align: center;
+}
 
-
+.project-span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
 /* ---------- POSITION ONE SPECIFIC ---------- */
 .project-pone {
     background: linear-gradient(to top right,rgb(255, 255, 255), rgba(255, 255, 255, 0)), linear-gradient(to left,rgba(1, 163, 151, 0.49), rgba(1, 163, 151, 0)), url("img/project_bg_pone.svg"), #FFFFFF;
@@ -480,9 +489,9 @@ padding-left: 20%;
     align-content: center;
 }
 .project-pone-content {
-    margin-top: 2%;
     margin-left: 20%;
     margin-right: 20%;
+    padding-top: 2%;
 }
 .project-pone-text {
     color: #333333;
@@ -500,8 +509,8 @@ padding-left: 20%;
     padding: 6px 30px;
 }
 .pone-logo {
-    max-height: 200px;
-    padding-bottom: 20px;
+    max-height: 150px;
+    padding-bottom: 10px;
 }
 
 
