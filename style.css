@@ -1,5 +1,5 @@
 body {
-  background-image: url('img/starfield.svg');
+  background-image: url("img/starfield.svg");
   background-color: #19253d;
   background-repeat: repeat;
   background-size: 50%;
@@ -80,7 +80,7 @@ button:hover {
   background-color: #19253d;
   box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.5);
 }
-input[type='text'],
+input[type="text"],
 select {
   width: 100%;
   padding: 1em;
@@ -187,10 +187,18 @@ input[type=submit]:hover {
   text-align: right;
   font-family: Lato, arial, serif;
   font-weight: bold;
+  transition: 1s;
+}
+.home-greeting-right:hover{
+    transform: scale(1.1);
 }
 .home-greeting-img {
   width: 100%;
   padding-left: 20%;
+  transition: 0.5s;
+}
+.home-greeting-img:hover{
+    transform: scale(1.1);
 }
 .greeting-small {
   font-size: 2.5em;
@@ -210,7 +218,7 @@ input[type=submit]:hover {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0px 0px 0.1em #ffa800;
+  text-shadow: 0px 0px 0.1em #ffc400;
 }
 .white-full-width {
   z-index: 1;
@@ -396,7 +404,6 @@ input[type=submit]:hover {
   align-content: center;
   overflow: hidden;
   filter: none;
-  transition: 0.5s;
   -webkit-transition: 0.5s;
   -webkit-filter: grayscale(80%);
   -moz-filter: grayscale(80%);
@@ -405,16 +412,19 @@ input[type=submit]:hover {
   cursor: auto;
 }
 .project-wrapper:hover {
-  filter: none;
+  z-index: 9999;
+    filter: none;
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
   -ms-filter: grayscale(0%);
   -o-filter: grayscale(0%);
   cursor: auto;
   background-color: #fff;
-  -webkit-box-shadow: inset 0 0 30px rgba(255, 255, 255, 025);
-  -moz-box-shadow: inset 0 0 30px rgba(255, 255, 255, 0.25);
-  box-shadow: inset 0px 0 30px rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow:  0px 0 30px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow:  0px 0 30px rgba(0, 0, 0, 0.75);
+  box-shadow:  0px 0 30px rgba(0, 0, 0, 0.75);
+  transform: scale(1.02);
+  cursor: pointer;
 }
 .project-content {
   padding: 20px;
@@ -429,6 +439,31 @@ input[type=submit]:hover {
   min-width: 60%;
   align-self: right;
 }
+.project-blank {
+    background: #fff;
+    min-height: 150px;
+    line-height: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    box-shadow: inset 0px 10px 30px -10px rgba(0, 0, 0, 0.50);
+    transition: all 0.4s ease-in-out;
+  }
+  .project-blank:hover {
+    z-index: 9999;
+    background-color: #64c4f705;
+    box-shadow: 0px 0px 20px #00000073;
+    transform: scale(1.02);
+    cursor: pointer;
+  }
+  
+  .project-span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    min-height: 40px;
+  }
 .project-logo {
   max-height: 100px;
   max-width: 600px;
@@ -445,7 +480,7 @@ input[type=submit]:hover {
 
 /* ---------- KENO SPECIFIC ---------- */
 .project-keno {
-  background-image: url('img/project_bg_keno.png');
+  background-image: url("img/project_bg_keno.png");
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: cover;
@@ -461,7 +496,7 @@ input[type=submit]:hover {
 .project-keno-btn {
   color: white;
   background-color: #0fb0e4;
-  font-family: 'tnorth-light', 'righteous', arial;
+  font-family: "tnorth-light", "righteous", arial;
   border: none;
   border-radius: 999px;
   outline: 0;
@@ -470,11 +505,11 @@ input[type=submit]:hover {
   padding: 6px 30px;
 }
 @font-face {
-  font-family: 'tnorth-light';
+  font-family: "tnorth-light";
   src: url(fonts/TNorth-Light.ttf);
 }
 @font-face {
-  font-family: 'tnorth-regular';
+  font-family: "tnorth-regular";
   src: url(fonts/TNorth-Regular.ttf);
 }
 
@@ -498,7 +533,7 @@ input[type=submit]:hover {
       rgba(255, 255, 255, 0)
     ),
     linear-gradient(to left, rgba(1, 163, 151, 0.49), rgba(1, 163, 151, 0)),
-    url('img/project_bg_pone.svg'), #ffffff;
+    url("img/project_bg_pone.svg"), #ffffff;
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
@@ -533,7 +568,7 @@ input[type=submit]:hover {
 /* ---------- ROMANCE PROTOCOL SPECIFIC ---------- */
 .project-rp {
   background: linear-gradient(to right, #3f0070, rgba(86, 0, 153, 0)),
-    url('img/project_bg_rp.png'), #ffffff;
+    url("img/project_bg_rp.png"), #ffffff;
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
@@ -554,7 +589,7 @@ input[type=submit]:hover {
 .project-rp-btn {
   color: #fff;
   background-color: #e88cff;
-  font-family: 'sacul', righteous, sans-serif;
+  font-family: "sacul", righteous, sans-serif;
   border: none;
   border-radius: 0px;
   outline: 0;
@@ -566,7 +601,7 @@ input[type=submit]:hover {
   max-height: 200px;
 }
 @font-face {
-  font-family: 'sacul';
+  font-family: "sacul";
   src: url(fonts/Sacul.otf);
 }
 
@@ -577,7 +612,7 @@ input[type=submit]:hover {
       rgba(0, 0, 0, 0.5) 0%,
       rgba(0, 0, 0, 0) 100%
     ),
-    url('img/project_bg_cva.png'), #ffffff;
+    url("img/project_bg_cva.png"), #ffffff;
   background-repeat: no-repeat;
   background-position: middle;
   background-size: cover;
