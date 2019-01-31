@@ -1,20 +1,87 @@
-.header {
-    width: 100%;
-    min-height: 10%;
-    background-color:rgba(0, 0, 0, 0.8);
-}
 h1 {
-    color: red;
-    font-size: 200%;
+    color: #ffffff;
+    font-size: 4em;
     font-weight: bold;
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+    text-transform: uppercase;
 }
-.contentWrapper {
+h2 {
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+}
+p {
+    color: #000000;
+    font-size: 1.2em;
+    font-family: 'Nunito', sans-serif;
+}
+.headerWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 200px;
+    background-color:#2a2e31;
+}
+.HeaderContentMain {
+    position: relative;
+    top: 50%;
+    width: 60%;
+    transform: translateY(-50%);
+}
+.HeaderContentSecondary{
+    min-height: 100px;
+    min-width: 20%;
+    background-color: gold;
+}
+.HeaderPadding{
+    min-width: 10%;
+}
+.ContentWrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color:rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    background-color: #ffffff;
+    padding-left: 5%;
+    padding-right: 5%;
 }
-.contentItem {
-    width: 1000px;
-    background-color:rgba(0, 0, 0, 0.3);
+.ContentItem {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    margin: 10px 10px 20px 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 20px #00000015;
+    border-radius: 12px;
+    transition: all .2s ease-in-out;
+}
+.ContentItem:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 6px 20px #00000020;
+}
+.ContentTitleWrapper {
+    align-self: flex-end;
+    width: 100%;
+    margin-bottom: 10%;
+}
+.ContentTitle {
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+}
+.ContentSubTitle {
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+}
+.ItemKeno {
+    background: linear-gradient(to bottom left, #009fe3, #522583)
 }
