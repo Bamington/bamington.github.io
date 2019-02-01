@@ -174,12 +174,111 @@ p {
     background-color: #ffffff;
     box-shadow: 0px 5px 20px #00000015, inset 0px 0px 40px #00000005;
     border-radius: 12px;
-    opacity: 0.7;
     overflow: hidden;   
 }
 .contentItem:hover {
     box-shadow: 0px 6px 20px #00000046;
     opacity: 1;
+    animation: itemHoverAnim 8s ease infinite;
+}
+
+.contentTitleWrapper {
+    align-self: flex-end;
+    width: 100%;
+    padding-bottom: 5%;
+    padding-top: 10%;
+    border-radius: 12px;
+    z-index: 2;
+}
+.contentTitle {
+    color: #ffffff;
+    font-size: 1.6em;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0px 2px 5px #000, 0px 0px 8px #000, 0px 0px 20px #000;
+}
+.contentSubTitle {
+    color: #ffffff;
+    font-size: 0.8em;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+    padding-top: 2%;
+    text-shadow: 0px 2px 10px #000000;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #333333;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px -10px 10px #00000025;
+}
+.footerText{
+    color: #7c7c7c;
+    font-family: 'asap', sans-serif;
+    font-size: 1em;
+}
+/* GAME CASE -------------------------------------------- */
+.itemGameCase {
+    background: linear-gradient(to bottom left, #1dd1a1cb, #70e7c7c0, #6a43b8bd, #9e6dffc2);
+    background-size: 400% 400%;
+}
+@keyframes itemHoverAnim {
+    0% {background-position: 0% 50%}
+	50% {background-position: 100% 50%}
+	100% {background-position: 0% 50%}
+}
+.titleWrapperGameCase {
+    background: linear-gradient(to bottom, #9E6DFF00,#6038afad);
+}
+/* KENO 1 -------------------------------------------- */
+.itemKeno1 {
+    background: linear-gradient(to bottom left,#ac790b, #ffb71c, #e27900, #884e0b);
+    background-size: 400% 400%;
+}
+/* KENO 2 -------------------------------------------- */
+.itemKeno2 {
+    background: linear-gradient(to bottom left, #005c83, #009fe3, #522583, #2f1150);
+    background-size: 400% 400%;
+}
+/* RACEDAY -------------------------------------------- */
+.itemRaceday {
+    background: linear-gradient(to bottom left, #63b960, #4aaa46, #17420e, #0c2c06);
+    background-size: 400% 400%;
+}
+.itemGameTrack {
+    background: linear-gradient(to bottom left, #229BB1, #198063);
+    background-size: 400% 400%;
+}
+.itemPositionOne {
+    background: linear-gradient(to bottom left, #E8F5F4, #279289);
+    background-size: 400% 400%;
+}
+.itemRaisingGamers {
+    background: linear-gradient(to bottom left, #dac1f3, #9860d1);
+    background-size: 400% 400%;
+}
+.itemItsBam {
+    background: linear-gradient(to bottom left, #779fac, #2A3A41);
+    background-size: 400% 400%;
+}
+.itemWarcraft {
+    background: linear-gradient(to bottom left, #8AC3C4, #885619);
+    background-size: 400% 400%;
+}
+.itemWriting {
+    background: linear-gradient(to bottom left, #6085ff, #0f37bd);
+    background-size: 400% 400%;
+}
+.itemSpeaking {
+    background: linear-gradient(to bottom left, #97ff35, #0b6e59);
+    background-size: 400% 400%;
 }
 .tagWrapper {
     align-self: flex-start;
@@ -233,91 +332,4 @@ p {
 }
 .writing {
     background-color: #ddba1f;
-}
-.contentTitleWrapper {
-    align-self: flex-end;
-    width: 100%;
-    padding-bottom: 5%;
-    padding-top: 10%;
-    border-radius: 12px;
-    z-index: 2;
-}
-.contentTitle {
-    color: #ffffff;
-    font-size: 1.6em;
-    font-weight: 500;
-    text-align: center;
-    font-family: 'Asap', sans-serif;
-    text-transform: uppercase;
-    text-shadow: 0px 2px 5px #000, 0px 0px 8px #000, 0px 0px 20px #000;
-}
-.contentSubTitle {
-    color: #ffffff;
-    font-size: 0.8em;
-    font-weight: 400;
-    text-align: center;
-    font-family: 'Asap', sans-serif;
-    padding-top: 2%;
-    text-shadow: 0px 2px 10px #000000;
-}
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    background-color: #333333;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    box-shadow: 0px -10px 10px #00000025;
-}
-.footerText{
-    color: #7c7c7c;
-    font-family: 'asap', sans-serif;
-    font-size: 1em;
-}
-.itemGameCase {
-    background: linear-gradient(to bottom left, #1DD1A1, #69b6c4, #9E6DFF);
-    background-size: 400% 400%;
-}
-.itemGameCase:hover {
-	animation: itemGameCaseHoverAnim 10s ease infinite;
-}
-@keyframes itemGameCaseHoverAnim {
-    0% {background-position: 0% 50%}
-	50% {background-position: 100% 50%}
-	100% {background-position: 0% 50%}
-}
-.titleWrapperGameCase {
-    background: linear-gradient(to bottom, #9E6DFF00,rgb(96, 56, 175));
-}
-.itemKeno1 {
-    background: linear-gradient(to bottom left, #ffb71c, #e27900)
-}
-.itemKeno2 {
-    background: linear-gradient(to bottom left, #009fe3, #522583)
-}
-.itemRaceday {
-    background: linear-gradient(to bottom left, #4aaa46, #17420e)
-}
-.itemGameTrack {
-    background: linear-gradient(to bottom left, #229BB1, #198063)
-}
-.itemPositionOne {
-    background: linear-gradient(to bottom left, #E8F5F4, #279289)
-}
-.itemRaisingGamers {
-    background: linear-gradient(to bottom left, #dac1f3, #9860d1)
-}
-.itemItsBam {
-    background: linear-gradient(to bottom left, #779fac, #2A3A41)
-}
-.itemWarcraft {
-    background: linear-gradient(to bottom left, #8AC3C4, #885619)
-}
-.itemWriting {
-    background: linear-gradient(to bottom left, #6085ff, #0f37bd)
-}
-.itemSpeaking {
-    background: linear-gradient(to bottom left, #97ff35, #0b6e59)
 }
