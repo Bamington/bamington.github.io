@@ -1,5 +1,5 @@
 h1 {
-    color: #ffffff;
+    color: #333333;
     font-size: 4em;
     font-weight: bold;
     text-align: center;
@@ -7,7 +7,7 @@ h1 {
     text-transform: uppercase;
 }
 h2 {
-    color: #ffffff;
+    color: #333333;
     font-size: 2em;
     font-weight: bold;
     text-align: center;
@@ -22,25 +22,87 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    align-items: center;
+    z-index: 10;
+    position: relative;
     justify-content: center;
     height: 200px;
-    background-color:#2a2e31;
+    margin-bottom: 20px;
+    background-color:#ffffff;
+    box-shadow: 0px 10px 20px #00000010;
 }
-.HeaderContentMain {
+.headerContentMain {
     position: relative;
-    top: 50%;
+    height: 100%;
     width: 60%;
-    transform: translateY(-50%);
 }
-.HeaderContentSecondary{
-    min-height: 100px;
-    min-width: 20%;
-    background-color: gold;
+.headerContentSecondary{
+    height: 200px;
+    width: 200px;
 }
-.HeaderPadding{
+.headerContentPortrait{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 10px;
+    background: linear-gradient(to bottom left, #009fe3, #522583)
+}
+.headerContentContactWrapper {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: left;
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.headerContentContact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-family: 'Asap', sans-serif;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.contactIconWrapper {
+    display: flex;
+    order: 1;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(196, 196, 196);
+    border-radius: 50%;
+}
+.contactText {
+    order: 2;
+    color: #009fe3;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 12px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.contactIcon{
+    height: 16px;
+    width: 16px;
+    margin: auto;
+}
+.headerPadding{
     min-width: 10%;
 }
-.ContentWrapper {
+.footer {
+    width: 100%;
+    height: 80px;
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.contentWrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -49,39 +111,45 @@ p {
     padding-left: 5%;
     padding-right: 5%;
 }
-.ContentItem {
+.contentItem {
     display: flex;
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     margin: 10px 10px 20px 10px;
     background-color: #ffffff;
-    box-shadow: 0px 5px 20px #00000015;
+    box-shadow: 0px 5px 20px #00000015, inset 0px 0px 40px #00000005;
     border-radius: 12px;
     transition: all .2s ease-in-out;
 }
-.ContentItem:hover{
+.contentItem:hover{
     transform: scale(1.02);
     box-shadow: 0px 6px 20px #00000020;
 }
-.ContentTitleWrapper {
+.contentTitleWrapper {
     align-self: flex-end;
     width: 100%;
     margin-bottom: 10%;
 }
-.ContentTitle {
+.contentTitle {
     color: #ffffff;
-    font-size: 2em;
-    font-weight: bold;
+    font-size: 1.6em;
+    font-weight: 500;
     text-align: center;
     font-family: 'Asap', sans-serif;
+    text-shadow: 0px 0px 20px #00000050;
 }
-.ContentSubTitle {
+.contentSubTitle {
     color: #ffffff;
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: 400;
     text-align: center;
     font-family: 'Asap', sans-serif;
+    padding-top: 2%;
+    text-shadow: 0px 0px 20px #00000050;
 }
-.ItemKeno {
+.itemKeno {
     background: linear-gradient(to bottom left, #009fe3, #522583)
+}
+.itemRaceday {
+    background: linear-gradient(to bottom left, #4aaa46, #17420e)
 }
