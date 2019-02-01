@@ -1,22 +1,29 @@
 h1 {
-    color: #333333;
+    color: #7c7c7c;
     font-size: 4em;
-    font-weight: bold;
+    font-weight: 300;
     text-align: center;
-    font-family: 'Asap', sans-serif;
+    font-family: 'Catamaran', sans-serif;
     text-transform: uppercase;
 }
 h2 {
-    color: #333333;
-    font-size: 2em;
-    font-weight: bold;
+    color: #c4c4c4;
+    font-size: 1.6em;
+    font-weight: 100;
     text-align: center;
-    font-family: 'Asap', sans-serif;
+    font-family: 'Catamaran', sans-serif;
 }
 p {
     color: #000000;
     font-size: 1.2em;
     font-family: 'Nunito', sans-serif;
+}
+.container {
+    min-height: 100%;
+    position: relative;
+}
+.body {
+    padding-bottom: 80px;
 }
 .headerWrapper {
     display: flex;
@@ -32,20 +39,36 @@ p {
     box-shadow: 0px 10px 20px #00000010;
 }
 .headerContentMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: relative;
     height: 100%;
     width: 60%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.headerTitle {
+    order: 1;
+    font-weight: 300;
+}
+.headerSubTitle {
+    order: 2;
+    font-weight: 400;
 }
 .headerContentSecondary{
     height: 200px;
     width: 200px;
 }
 .headerContentPortrait{
-    width: 180px;
-    height: 180px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
-    margin-top: 10px;
-    background: linear-gradient(to bottom left, #009fe3, #522583)
+    margin-top: 30px;
+    background-image: linear-gradient(to bottom left, #009fe342, #5225839f), url("assets/profile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .headerContentContactWrapper {
     display:flex;
@@ -69,7 +92,7 @@ p {
     order: 1;
     height: 30px;
     width: 30px;
-    background-color: rgb(196, 196, 196);
+    background-color: #009fe3;
     border-radius: 50%;
 }
 .contactText {
@@ -90,28 +113,43 @@ p {
     margin: auto;
 }
 .headerPadding{
-    min-width: 10%;
+    min-width: 20%;
 }
-.footer {
+.filterWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
     width: 100%;
-    height: 80px;
-    background-color: #333333;
-    color: #ffffff;
+}
+.filter {
+    font-size: 2em;
+    padding: 10px 30px 10px 30px;
+    font-size: 1.2em;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
+    color: #afafaf;
+    transition: all .2s ease-in-out;
+}
+.filter:hover{
+    color: #009fe3;
+}
+.filterActive{
+    color: #009fe3;
 }
 .contentWrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #ffffff;
+    background-image: linear-gradient(to bottom, #fff, #d9f4ff);
     padding-left: 5%;
     padding-right: 5%;
 }
 .contentItem {
+    opacity: 0.8;
     display: flex;
     width: 300px;
     height: 300px;
@@ -124,6 +162,59 @@ p {
 .contentItem:hover{
     transform: scale(1.02);
     box-shadow: 0px 6px 20px #00000020;
+    opacity: 1;
+}
+.tagWrapper {
+    align-self: flex-start;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+    margin-left: 10px;
+}
+.tag {
+    margin-top: 10px;
+    margin-left: 4px;
+    background-color: rgb(255, 107, 107);
+    height: 20px;
+    min-width: 40px;
+    border-radius: 20px;
+    padding: 0px 6px 0px 6px;
+    color: #ffffff;
+    font-size: 0.8em;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    line-height: 20px;
+    box-shadow: 0px 1px 10px #00000031;
+}
+.ux {
+    background-color: #65adff;
+}
+.ui {
+    background-color: #ffb765;
+}
+.mobile {
+    background-color: #51c8d8;
+}
+.web {
+    background-color: #91df63;
+}
+.product {
+    background-color: #e25763;
+}
+.game {
+    background-color: #c165ff;
+}
+.animation {
+    background-color: #586ecf;
+}
+.dev {
+    background-color: #5a5a5a;
+}
+.writing {
+    background-color: #ddba1f;
 }
 .contentTitleWrapper {
     align-self: flex-end;
@@ -147,9 +238,52 @@ p {
     padding-top: 2%;
     text-shadow: 0px 0px 20px #00000050;
 }
-.itemKeno {
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #333333;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px -10px 10px #00000025;
+}
+.footerText{
+    color: #7c7c7c;
+    font-family: 'asap', sans-serif;
+    font-size: 1em;
+}
+.itemGameCase {
+    background: linear-gradient(to bottom left, #1DD1A1, #69b6c4, #9E6DFF)
+}
+.itemKeno1 {
+    background: linear-gradient(to bottom left, #ffb71c, #e27900)
+}
+.itemKeno2 {
     background: linear-gradient(to bottom left, #009fe3, #522583)
 }
 .itemRaceday {
     background: linear-gradient(to bottom left, #4aaa46, #17420e)
+}
+.itemGameTrack {
+    background: linear-gradient(to bottom left, #229BB1, #198063)
+}
+.itemPositionOne {
+    background: linear-gradient(to bottom left, #E8F5F4, #279289)
+}
+.itemRaisingGamers {
+    background: linear-gradient(to bottom left, #dac1f3, #9860d1)
+}
+.itemItsBam {
+    background: linear-gradient(to bottom left, #779fac, #2A3A41)
+}
+.itemWarcraft {
+    background: linear-gradient(to bottom left, #8AC3C4, #885619)
+}
+.itemWriting {
+    background: linear-gradient(to bottom left, #6085ff, #0f37bd)
+}
+.itemSpeaking {
+    background: linear-gradient(to bottom left, #97ff35, #0b6e59)
 }
