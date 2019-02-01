@@ -221,29 +221,20 @@
                 $(this).toggleClass('filterActive');
             });
             let contentDivs = document.getElementsByClassName('contentItem');
-
             $("#filterAll").click(function() {
-                console.log("Clicked all button");
                 $(".contentItem").show();
-                console.log("all shown");
             });
             $("#filterMobile").click(function() {
-                console.log("Clicked mobile button");
-                $(".contentItem").toggleClass('contentItemFade');
+                $(".contentItem").hide();
                 $(".contentMobile").show();
-                console.log("showing mobile");
             });
             $("#filterWeb").click(function() {
-                console.log("Clicked web button");
                 $(".contentItem").hide();
                 $(".contentWeb").show();
-                console.log("showing web");
             });
             $("#filterAnimation").click(function() {
-                console.log("Clicked Animation button");
                 $(".contentItem").hide();
                 $(".contentAnimation").show();
-                console.log("showing Animation");
             });
         </script>
         </body>

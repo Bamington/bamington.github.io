@@ -179,7 +179,8 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 300px;
+    width: 295px;
+    padding-left: 5px;
 }
 .tag {
     margin-top: 10px;
