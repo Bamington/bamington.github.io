@@ -50,20 +50,21 @@
             <button class="filter" id="filterAnimation">Animation</button>
         </div>
         <div class="ContentWrapper">
-            <div class="ContentItem ItemGameCase contentMobile">
-                <div class="tagWrapper">
-                    <div class="tag mobile">Mobile</div>
-                    <div class="tag product">Product Design</div>
-                </div>
-                <div class="ContentTitleWrapper">
-                    <p class="ContentTitle">
-                        Game Case
-                    </p>
-                    <p class="ContentSubTitle">
-                        Personal Project | 2018-2019
-                    </p>
-                </div>
-            </div>
+                <div class="ContentItem ItemGameCase contentMobile">
+                        <div class="tagWrapper">
+                            <div class="tag mobile">Mobile</div>
+                            <div class="tag product">Product Design</div>
+                        </div>
+                        <div class="ContentTitleWrapper titleWrapperGameCase">
+                            <p class="ContentTitle">
+                                Game Case
+                            </p>
+                            <p class="ContentSubTitle">
+                                Personal Project | 2018-2019
+                            </p>
+                        </div>
+                        <img class="contentImage" src="assets/gamecase-cover-trans.png">
+                    </div>
             <div class="ContentItem ItemKeno1 contentMobile contentWeb contentAnimation">
                 <div class="tagWrapper">
                     <div class="tag mobile">Mobile</div>
@@ -127,6 +128,7 @@
                 <div class="tagWrapper">
                     <div class="tag web">Web</div>
                     <div class="tag product">Product Design</div>
+                    <div class="tag development">Development</div>
                 </div>
                 <div class="contentTitleWrapper">
                     <p class="ContentTitle">
@@ -141,7 +143,6 @@
                 <div class="tagWrapper">
                     <div class="tag web">Web</div>
                     <div class="tag product">Product Design</div>
-                    <div class="contentTitleWrapper"></div>
                 </div>
                 <div class="contentTitleWrapper">
                     <p class="ContentTitle">
@@ -171,7 +172,7 @@
                     <div class="tag game">Game Design</div>
                     <div class="tag animation">Animation</div>
                     <div class="tag 3D">3D</div>
-                    <div class="tag dev">Development</div>
+                    <div class="tag development">Development</div>
                 </div>
                 <div class="contentTitleWrapper">
                     <p class="ContentTitle">
@@ -222,19 +223,28 @@
             });
             let contentDivs = document.getElementsByClassName('contentItem');
             $("#filterAll").click(function() {
-                $(".contentItem").show();
+                $(".contentItem").fadeOut(200);
+                setTimeout(function(){
+                    $(".contentItem").fadeIn(200);
+                },300)
             });
             $("#filterMobile").click(function() {
-                $(".contentItem").hide();
-                $(".contentMobile").show();
+                $(".contentItem").fadeOut(200);
+                setTimeout(function(){
+                    $(".contentMobile").fadeIn(200);
+                },200)
             });
             $("#filterWeb").click(function() {
-                $(".contentItem").hide();
-                $(".contentWeb").show();
+                $(".contentItem").fadeOut(200);
+                setTimeout(function(){
+                $(".contentWeb").fadeIn(200);
+                },200)
             });
             $("#filterAnimation").click(function() {
-                $(".contentItem").hide();
-                $(".contentAnimation").show();
+                $(".contentItem").fadeOut(200);
+                setTimeout(function(){
+                $(".contentAnimation").fadeIn(200);
+                },200)
             });
         </script>
         </body>
