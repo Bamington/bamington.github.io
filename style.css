@@ -185,6 +185,8 @@ hr {
     height: 300px;
     margin: 10px 10px 20px 10px;
     background-color: #ffffff;
+    background-size: 400% 400%;
+    background-position: 0% 50%;
     box-shadow: 0px 5px 20px #00000015, inset 0px 0px 40px #00000005;
     border-radius: 12px;
     overflow: hidden;   
@@ -226,14 +228,14 @@ hr {
     bottom: 0;
     width: 100%;
     height: 40px;
-    background-color: #333333;
+    background-color: #ffffff;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     box-shadow: 0px -10px 10px #00000025;
 }
 .footerText{
-    color: #7c7c7c;
+    color: #cecece;
     font-family: 'asap', sans-serif;
     font-size: 1em;
 }
@@ -248,6 +250,7 @@ hr {
 .itemGameCase {
     background: linear-gradient(to bottom left, #1dd1a1cb, #70e7c7c0, #6a43b8bd, #9e6dffc2);
     background-size: 400% 400%;
+    background-position: 0% 50%;
 }
 @keyframes itemHoverAnim {
     0% {background-position: 0% 50%}
@@ -258,51 +261,61 @@ hr {
 .itemKeno1 {
     background: linear-gradient(to bottom left,#ac790b, #ffb71c, #e27900, #884e0b);
     background-size: 400% 400%;
+    background-position: 0% 50%;
 }
 /* KENO 2 -------------------------------------------- */
 .itemKeno2 {
     background: linear-gradient(to bottom left, #005c83, #009fe3, #522583, #2f1150);
     background-size: 400% 400%;
+    background-position: 0% 50%;
 }
 /* RACEDAY -------------------------------------------- */
 .itemRaceday {
     background: linear-gradient(to bottom left, #63b960, #4aaa46, #17420e, #0c2c06);
     background-size: 400% 400%;
+    background-position: 0% 50%;
 }
 /* GAME TRACK -------------------------------------------- */
 .itemGameTrack {
     background: linear-gradient(to bottom left, #229BB1, #198063);
     background-size: 400% 400%;
+    background-position: 0% 50%;
 }
 /* POSITION ONE  -------------------------------------------- */
 .itemPositionOne {
     background: linear-gradient(to bottom left, #E8F5F4, #279289);
     background-size: 400% 400%;
+    background-position: 0% 50%;
 }
 /* RAISING GAMERS -------------------------------------------- */
 .itemRaisingGamers {
     background: linear-gradient(to bottom left, #dac1f3, #9860d1);
     background-size: 400% 400%;
+    background-position: 0% 50%;
 }
 /* ITS BAM -------------------------------------------- */
 .itemItsBam {
     background: linear-gradient(to bottom left, #779fac, #2A3A41);
     background-size: 400% 400%;
+    background-position: 0% 50%;
 }
 /* WARCRAFT -------------------------------------------- */
 .itemWarcraft {
     background: linear-gradient(to bottom left, #8AC3C4, #885619);
     background-size: 400% 400%;
+    background-position: 0% 50%;
 }
 /* WRITING -------------------------------------------- */
 .itemWriting {
     background: linear-gradient(to bottom left, #95aeff, #082da5);
     background-size: 400% 400%;
+    background-position: 0% 50%;
 }
 /* SPEAKING -------------------------------------------- */
 .itemSpeaking {
     background: linear-gradient(to bottom left, #97ff35, #0b6e59);
     background-size: 400% 400%;
+    background-position: 0% 50%;
 }
 /* TAG STUFF -------------------------------------------- */
 .tagWrapper {
