@@ -6,9 +6,10 @@
     <link runat="server" rel="icon" href="assets/favicon.png" type="image/ico" />
     <link rel="stylesheet" type="text/css" href="stylereset.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Asap|Nunito|Catamaran" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Asap|Nunito|Catamaran:400,700,900" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
+<a id="top"></a>
 <div class="container">
     <div class="body">
         <div class="HeaderWrapper">
@@ -70,6 +71,21 @@
                 <br>
                 <p>Over the course of a few short days, we developed a prototype that we could use to test - and hopefully prove - the concept. Whilst my colleague did the development, I was responsible for the user experience, visual design, and branding of the product. I also built an interactive prototype for use to use for early user-acceptance testing.</p>
             </div>
+            <hr>
+            <div class="folioFactSheetWrapper">
+                <div class="folioFact">
+                    <p class="folioFactTitle">Role</p>
+                    <p>UX Designer</p>
+                </div>
+                <div class="folioFact">
+                    <p class="folioFactTitle">Tools</p>
+                    <p>Figma</p>
+                </div>
+                <div class="folioFact">
+                    <p class="folioFactTitle">Collaborators</p>
+                    <p>Chao Ruan</p>
+                </div>
+            </div>
             <div class="folioChapterHeading">Early Designs</div>
             <div class="folioImageFullWidth">
                 <img class="folioImage folioImageWide" src="assets/img/gamecase2.png">
@@ -88,6 +104,8 @@
                         <p>The layouts and patterns of the app were initially based closely on other apps I found during competitor analysis.</p>
                         <br>
                         <p>Popular apps like <b>TVTime</b> or <b>iTV</b> had already established patterns that matched our use case.</p>
+                        <br>
+                        <p>I began designing the key screens and flows with these apps in mind.</p>
                     </div>
                     <div class="folioImageHalf folioRight">
                         <img class="folioImage" src="assets/img/gamecase1.png">
@@ -99,13 +117,21 @@
                 </div>
                 <div class="folioTextHalf folioRight">
                     <p class="folioChapterSubHeading">Design Exploration</p>
-                    <p>Yeah, I tried heaps of colors, hey.</p>
+                    <p>Although it's a little premature, I wanted to hit the ground running with a strong, clear aesthetic. This was also driven by our competitor analysis, in which I identified a few apps who had similar functionality to that which we intended to offer.</p>
+                    <br>
+                    <p>These competitors lacked the fit and polish of a modern piece of software, however. I wanted GameCase to stand out as a quality solution, and I felt the best way to do this was clean, modern aesthetics.</p>
+                    <br>
+                    <p>As gamers ourselves, my partner and I also identified that personalisation was important to our customer segment. For that reason, we built the app's colour scheme to be modular. This meant that we would be able to offer new designs and colour patterns in the future.</p>
                 </div>
             </div>
             <div class="folioTextWithImage">
                 <div class="folioTextHalf folioLeft">
                     <p class="folioChapterSubHeading">Design Pillars</p>
-                    <p>I picked some great colors. They've since been voted the best colors of all time.</p>
+                    <p>If you've spent any time looking over my previous work, you won't be suprised to find that we landed on a green and purple colour scheme. Thankfully, however, I do have reasons for doing so.</p>
+                    <br>
+                    <p>The prevalent aesthetic in gaming, and particularly in games-related software, is high-saturation colours (Usually red or blue) on a black background. Think IGN, or OpenCritic, or Discord.</p> 
+                    <br>
+                    <p>We wanted to seperate ourselves from the pack, so I picked bright, slightly desaturated colours that still held a futuristic or technology vibe. I kept our app predominantly white, as O felt this would give it a modern feel, and help it stand out.</p>
                 </div>
                 <div class="folioImageHalf folioRight">
                     <img class="folioImage" src="assets/img/gamecase4.png" style="box-shadow: 0px 4px 10px #00000049; width: 70%;">
@@ -118,13 +144,17 @@
                 </div>
                 <div class="folioTextHalf folioRight">
                     <p class="folioChapterSubHeading">IGDB.com</p>
-                    <p>This is the part where I pretend to understand how the API works.</p>
+                    <p>The app really wouldn't be possible without a comprehensive database of video games to pull from. Thankfully, <a href="https://www.igdb.com/"><b>Internet Game Database</b></a> offers just such an API.</p>
+                    <br>
+                    <p>We built the app from the ground up to use their technology. Even my early UX prototypes use assets and copy from their API, to ensure consistency with production.</p>
                 </div>
             </div>
             <div class="folioTextWithImage">
                 <div class="folioTextHalf folioLeft">
-                    <p class="folioChapterSubHeading">UI Kit</p>
-                    <p>I stole some dudes UI kit because that's easier than making your own.</p>
+                    <p class="folioChapterSubHeading">Toxin UI Kit</p>
+                    <p>I'd had the <a href="http://metro.gg/"><b>Toxin UI kit from Metro</b></a> sitting in my Figma files for a rainy day, and it had the exact look and feel I wanted for Game Case.</p>
+                    <br>
+                    <p>Like any good plan, Toxin didn't survive contact with our final product. However, it laid the foundation for a number of major elements of the UI.</p>
                 </div>
                 <div class="folioImageHalf folioRight">
                     <img class="folioImage folioImageTall" src="assets/img/gamecase6.png">
@@ -135,8 +165,10 @@
                     <img class="folioImage folioImageTall" src="assets/img/gamecase7.png">
                 </div>
                 <div class="folioTextHalf folioRight">
-                    <p class="folioChapterSubHeading">Icon Kit</p>
-                    <p>Icons are heaps hard so I just nicked those too.</p>
+                    <p class="folioChapterSubHeading">Feather Icon Kit</p>
+                    <p>Like Toxin, I  really loved the simplicity of <a href="https://feathericons.com/"><b>X's Feather icons</b></a> ever since I'd discovered them, and had been eager to find a project where they'd fit.</p>
+                    <br>
+                    <p>The rounded, simple linework of Feather gave it a simple, premium, and futuristic feel. Perfect for GameCase.</p>
                 </div>
             </div>
             <div class="folioChapterHeading">Production Design & Iteration</div>
@@ -145,32 +177,64 @@
                 </div>
                 <div class="folioTextFullWidth">
                     <p class="folioChapterSubHeading folioChapterHeadingFullWidth">Core Journeys</p>
-                    <p>The X, Y, and Z journeys were the most impactful to the customer journey, so I focused on those first.</p>
+                    <p>Our original user flow from the start of the project identified three key tasks: <i>discovery and collection. </i>.</p>
+                    <br>
+                    <p>For discovery, we had two possible entrypoints our user might use to find a new game - the home screen, or the search. This gave us an easy target for our MVP.</p>
+                    <br>
+                    <p>Of course, once they'd found the game they wanted, they'd want to learn about it. For that reason, the game detail screen also took precedence.</p>
+                    <br>
+                    <p>Lastly, the end-goal of all this discovery is to add the game to your collection, or your wishlist, so that came last. Our first major flows were starting to take form.</p>
                 </div>
             <div class="folioTextWithImage">
                 <div class="folioTextHalf folioLeft">
-                    <p class="folioChapterSubHeading">New Feature A</p>
-                    <p>I stole some dudes UI kit because that's easier than making your own.</p>
+                    <p class="folioChapterSubHeading">Dark Mode</p>
+                    <p>Much like looking at your phone in a cinema, we realised during early 'playtests' that the white background wasn't awesome if you're in a dark room - something that, as it turns out, is suprisingly common when playing video games.</p>
+                    <br>
+                    <p>Selfishly, we added dark-mode to the app to eliminate this particular issue.</p>
                 </div>
                 <div class="folioImageHalf folioRight">
-                    <img class="folioImage" src="assets/img/placeholder.png">
+                    <img class="folioImage folioImageTall" src="assets/img/gamecase9.png">
                 </div>
             </div>
             <div class="folioTextWithImage">
                 <div class="folioImageHalf folioLeft">
-                    <img class="folioImage" src="assets/img/placeholder.png">
+                    <img class="folioImage" src="assets/img/gamecase10.png">
                 </div>
                 <div class="folioTextHalf folioRight">
-                    <p class="folioChapterSubHeading">New Feature B</p>
+                    <p class="folioChapterSubHeading">News Feed</p>
                     <p>The home screen, game pages, and collection flows were core to the experience, so my initial effort was focused there.</p>
                 </div>
+            </div>
+            <div class="folioTextWithImage">
+                <div class="folioTextHalf folioLeft">
+                    <p class="folioChapterSubHeading">Filtering</p>
+                    <p>When our user is searching for a new game, it's important they're only fed options that they have the appropriate hardware and consoles for. For this reason, we developed a complex filtering system.</p>
+                    <br>
+                    <p>These filters were available during any search, but we also asked the user during sign-up to tell us what hardware they owned. While they can always edit this information, it gives us a great baseline to start offering relevant games.</p>
+                </div>
+                <div class="folioImageHalf folioRight">
+                    <img class="folioImage folioImageTall" src="assets/img/gamecase11.png">
+                </div>
+            </div>
+            <div class="folioChapterHeading">Gratuitous Product Shots</div>
+            <img class="folioImage folioImageTall" src="assets/img/gamecase12.png">
+            <br>
+            <br>
+            <div class="folioTextFullWidth">
+                <p>GameCase is still in development, so it's hard to offer any sort of difinitive closing statement. That being said, all our early testing has shown positive signs that we're building something that adds real value to gamers and collectors alike. If nothing else, I hope you've enjoyed a glimpse into our development process..</p>
+                <br>
+                <p>Below, I've included an embedded Figma prototype that you can use in your browser. It only includes basic functionality, but should give you a good idea of how GameCase is progressing. Thanks for reading!</p>
             </div>
             <div class="folioChapterHeading">Interactive Prototype</div>
             <div class="folioFigmaFullWidth">
                     <iframe class="figmaEmbed" style="border: none;" width="400" height="600" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5PbUqOD5VwgrT7gTh1DG7r%2FGameCase%3Fnode-id%3D3129%253A1%26viewport%3D819%252C585%252C0.188617%26scaling%3Dscale-down" allowfullscreen></iframe>
             </div>
-
+            <a href="#top" class="btt">Back to top</a>
         </div>
+    </div>
+    <div class="Footer">
+        <p class="footerText">I built this website entirely myself, with code. #FrontEndDev?</p>
+        <p class="footerText">Also, I own basically everything here. Except the stuff I did for companies - they own that. Duh.</p>
     </div>
 </div>
 </html>

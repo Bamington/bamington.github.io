@@ -1,5 +1,6 @@
 <html lang="en">
 <title>Chris Harrison - Designer</title>
+
 <head>
     <meta charset="utf-8">
     <link runat="server" rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
@@ -46,7 +47,7 @@
                             <img class="contactIcon" src="assets/medium.svg" alt="Medium">
                         </div>
                         <a href="https://medium.com/@christopherbamharrison" class="contactText">Medium</a>
-                    </div>  
+                    </div>
                 </div>
             </div>
             <div class="HeaderPadding"></div>
@@ -60,19 +61,19 @@
             <button class="filter" id="filterProduct">Product Design</button>
         </div>
         <div class="ContentWrapper">
-                <div class="ContentItem ItemGameCase contentMobile contentProduct">
-                        <div class="tagWrapper">
-                            <div class="tag mobile">Mobile</div>
-                            <div class="tag product">Product Design</div>
-                        </div>
-                        <div class="ContentTitleWrapper titleWrapperGameCase">
-                            <p class="ContentSubTitle">
-                                Personal Project | 2018-2019
-                            </p>
-                        </div>
-                        <img class="contentImage" src="assets/gamecase-cover.png">
-                        <a href="gamecase.html"><span class="linkSpan"></span></a>
-                    </div>
+            <div class="ContentItem ItemGameCase contentMobile contentProduct">
+                <div class="tagWrapper">
+                    <div class="tag mobile">Mobile</div>
+                    <div class="tag product">Product Design</div>
+                </div>
+                <div class="ContentTitleWrapper titleWrapperGameCase">
+                    <p class="ContentSubTitle">
+                        Personal Project | 2018-2019
+                    </p>
+                </div>
+                <img class="contentImage" src="assets/gamecase-cover.png">
+                <a href="gamecase.html"><span class="linkSpan"></span></a>
+            </div>
             <div class="ContentItem ItemKeno1 contentMobile contentWeb contentAnimation contentProduct">
                 <div class="tagWrapper">
                     <div class="tag mobile">Mobile</div>
@@ -215,48 +216,50 @@
                 own that. Duh.</p>
         </div>
         <script>
-            $(".filter").click(function() {
+            $(".filter").click(function () {
                 $(".filter").removeClass('filterActive');
                 $(this).toggleClass('filterActive');
             });
             let contentDivs = document.getElementsByClassName('contentItem');
-            $("#filterAll").click(function() {
+            $("#filterAll").click(function () {
                 $(".contentItem").fadeOut(200);
-                setTimeout(function(){
+                setTimeout(function () {
                     $(".contentItem").fadeIn(200);
-                },300)
+                }, 300)
             });
-            $("#filterMobile").click(function() {
+            $("#filterMobile").click(function () {
                 $(".contentItem").fadeOut(200);
-                setTimeout(function(){
+                setTimeout(function () {
                     $(".contentMobile").fadeIn(200);
-                },200)
+                }, 200)
             });
-            $("#filterWeb").click(function() {
+            $("#filterWeb").click(function () {
                 $(".contentItem").fadeOut(200);
-                setTimeout(function(){
-                $(".contentWeb").fadeIn(200);
-                },200)
+                setTimeout(function () {
+                    $(".contentWeb").fadeIn(200);
+                }, 200)
             });
-            $("#filterAnimation").click(function() {
+            $("#filterAnimation").click(function () {
                 $(".contentItem").fadeOut(200);
-                setTimeout(function(){
-                $(".contentAnimation").fadeIn(200);
-                },200)
+                setTimeout(function () {
+                    $(".contentAnimation").fadeIn(200);
+                }, 200)
             });
-            $("#filterDevelopment").click(function() {
+            $("#filterDevelopment").click(function () {
                 $(".contentItem").fadeOut(200);
-                setTimeout(function(){
-                $(".contentDevelopment").fadeIn(200);
-                },200)
+                setTimeout(function () {
+                    $(".contentDevelopment").fadeIn(200);
+                }, 200)
             });
-            $("#filterProduct").click(function() {
+            $("#filterProduct").click(function () {
                 $(".contentItem").fadeOut(200);
-                setTimeout(function(){
-                $(".contentProduct").fadeIn(200);
-                },200)
+                setTimeout(function () {
+                    $(".contentProduct").fadeIn(200);
+                }, 200)
             });
+            
         </script>
         </body>
     </div>
+
 </html>
