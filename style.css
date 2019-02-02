@@ -414,7 +414,7 @@ hr {
     width: 100%;
     text-align: center;
     padding-top: 24px;
-    padding-bottom: 64px;
+    padding-bottom: 24px;
 }
 .folioTitle {
     color: #474747;
@@ -435,10 +435,11 @@ hr {
     color: #474747;
     font-size: 2.2em;
     font-weight: 700;
-    text-align: center;
+    text-align: left;
     font-family: 'Asap', sans-serif;
     text-transform: uppercase;
     padding-top: 80px;
+    width: 80%;
 }
 .folioChapterSubHeading {
     color: #474747;
@@ -448,12 +449,16 @@ hr {
     font-family: 'Asap', sans-serif;
     padding-bottom: 20px;
 }
+.folioChapterHeadingFullWidth {
+    width: 100%;
+    text-align: center;
+}
 .folioTextFullWidth{
     width: 80%;
     text-align: justify;
     text-justify: inter-word;
     margin-top: 48px;
-    margin-bottom: 48px;
+    margin-bottom: 12px;
 }
 .folioImageFullWidth{
     width: 80%;
@@ -471,7 +476,7 @@ hr {
     text-justify: inter-word;
     min-height: 200px;
     margin-top: 48px;
-    margin-bottom: 48px;
+    margin-bottom: 12px;
 }
 .folioTextHalf {
     display: flex;
@@ -506,6 +511,8 @@ hr {
     display: block;
     margin-left: auto;
     margin-right:auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 .folioImageWide {
     width: 100%;
